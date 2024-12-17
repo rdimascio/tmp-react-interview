@@ -7,20 +7,16 @@ import React from "react";
  * I can provide you with the access token for github.
  *
  * Requirements:
- * 1. Create a form to search for a user on GitHub.
+ * 1. Create a form to search for users on GitHub.
  * Create an input field to take the username as input.
  * Create a button to submit the username.
- * Create a results are to display the search results for the matches user(s).
+ * Create a results area to display the search results for the matched user(s).
  * You need to display the following info for the user(s):
  * - Avatar
  * - Username
  * - Name
- * - Location
- * - Link to the user's blog
- * - Bio
- * - Last updated at
  * Here are the documentation links for the GitHub API (I can provide you the api key to use):
- * https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-a-user
+ * https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#list-users
  *
  * 2. Create a "Favorited users" section to display the favorited users.
  * Create a way to add/remove a user to the favorited users section.
